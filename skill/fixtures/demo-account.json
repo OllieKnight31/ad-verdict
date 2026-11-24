@@ -1,0 +1,4023 @@
+{
+ "_about": "Invented demo data for ad-verdict-skill. No real account, business, person or advert is represented. Built by tests/make-fixture.js.",
+ "today": "2026-01-11",
+ "responses": {
+  "account": {
+   "name": "Demo Account (invented)",
+   "currency": "GBP",
+   "timezone_name": "Europe/London",
+   "account_status": 1,
+   "id": "act_0000000000"
+  },
+  "campaigns": {
+   "data": [
+    {
+     "id": "9000000000001",
+     "name": "Demo Webinar Cold Test",
+     "status": "ACTIVE",
+     "effective_status": "ACTIVE",
+     "objective": "OUTCOME_LEADS",
+     "created_time": "2026-01-04T09:00:00+0000",
+     "start_time": "2026-01-05T00:00:00+0000"
+    },
+    {
+     "id": "9000000000002",
+     "name": "Demo Retargeting (paused)",
+     "status": "PAUSED",
+     "effective_status": "PAUSED",
+     "objective": "OUTCOME_LEADS",
+     "daily_budget": "1500",
+     "created_time": "2025-11-01T09:00:00+0000",
+     "start_time": "2025-11-02T00:00:00+0000"
+    }
+   ]
+  },
+  "adsets:9000000000001": {
+   "data": [
+    {
+     "id": "8000000000001",
+     "name": "Test ad set 01",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000002",
+     "name": "Test ad set 02",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000003",
+     "name": "Test ad set 03",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000004",
+     "name": "Test ad set 04",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000005",
+     "name": "Test ad set 05",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000006",
+     "name": "Test ad set 06",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000007",
+     "name": "Test ad set 07",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000008",
+     "name": "Test ad set 08",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "LEARNING"
+     }
+    },
+    {
+     "id": "8000000000009",
+     "name": "Test ad set 09",
+     "effective_status": "ACTIVE",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000010",
+     "name": "Test ad set 10",
+     "effective_status": "PAUSED",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    },
+    {
+     "id": "8000000000011",
+     "name": "Test ad set 11",
+     "effective_status": "PAUSED",
+     "daily_budget": "2000",
+     "optimization_goal": "OFFSITE_CONVERSIONS",
+     "learning_stage_info": {
+      "status": "SUCCESS"
+     }
+    }
+   ]
+  },
+  "ads:9000000000001": {
+   "data": [
+    {
+     "id": "7000000000001",
+     "name": "Angle 01 Champion",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000001"
+    },
+    {
+     "id": "7000000000002",
+     "name": "Angle 02 Winner",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000002"
+    },
+    {
+     "id": "7000000000003",
+     "name": "Angle 03 Zero",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000003"
+    },
+    {
+     "id": "7000000000004",
+     "name": "Angle 04 Expensive",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000004"
+    },
+    {
+     "id": "7000000000005",
+     "name": "Angle 05 Died",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000005"
+    },
+    {
+     "id": "7000000000006",
+     "name": "Angle 06 Fatigue",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000006"
+    },
+    {
+     "id": "7000000000007",
+     "name": "Angle 07 Underspent",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000007"
+    },
+    {
+     "id": "7000000000008",
+     "name": "Angle 08 Learning",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000008"
+    },
+    {
+     "id": "7000000000009",
+     "name": "Angle 09 Drifting",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000009"
+    },
+    {
+     "id": "7000000000010",
+     "name": "Angle 10 Paused Early",
+     "effective_status": "PAUSED",
+     "adset_id": "8000000000010"
+    },
+    {
+     "id": "7000000000011",
+     "name": "Angle 11 Paused Dud",
+     "effective_status": "PAUSED",
+     "adset_id": "8000000000011"
+    },
+    {
+     "id": "7000000000012",
+     "name": "Angle 12 Twin",
+     "effective_status": "ACTIVE",
+     "adset_id": "8000000000002"
+    }
+   ]
+  },
+  "insights_lifetime:9000000000001": {
+   "data": [
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "96.00",
+     "impressions": "10667",
+     "reach": "7619",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "160",
+     "inline_link_click_ctr": "1.499953",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "160"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "128"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "24"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "24"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "9600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "816"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "4.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "105.00",
+     "impressions": "11667",
+     "reach": "8334",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "175",
+     "inline_link_click_ctr": "1.499957",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "175"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "140"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "15"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "15"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "10500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1050"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "30.00",
+     "impressions": "3333",
+     "reach": "2381",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "50",
+     "inline_link_click_ctr": "1.500150",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "50"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "40"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "3000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "345"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "63.00",
+     "impressions": "7000",
+     "reach": "5000",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "105",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "105"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "84"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "6300"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "819"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "21.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "80.00",
+     "impressions": "8889",
+     "reach": "6349",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "133",
+     "inline_link_click_ctr": "1.496231",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "133"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "106"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "10"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "10"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "8000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "560"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "8.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "99.00",
+     "impressions": "11000",
+     "reach": "2821",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "165",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "165"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "132"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "9"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "9"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "9900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "842"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000007",
+     "adset_name": "Test ad set 07",
+     "ad_id": "7000000000007",
+     "ad_name": "Angle 07 Underspent",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "140"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "14.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000008",
+     "adset_name": "Test ad set 08",
+     "ad_id": "7000000000008",
+     "ad_name": "Angle 08 Learning",
+     "spend": "44.00",
+     "impressions": "4889",
+     "reach": "3492",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "73",
+     "inline_link_click_ctr": "1.493148",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "73"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "58"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "4400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "506"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "54.00",
+     "impressions": "6000",
+     "reach": "4286",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "90",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "90"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "72"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "6"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "5400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "702"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "9.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000010",
+     "adset_name": "Test ad set 10",
+     "ad_id": "7000000000010",
+     "ad_name": "Angle 10 Paused Early",
+     "spend": "40.00",
+     "impressions": "4444",
+     "reach": "3174",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "67",
+     "inline_link_click_ctr": "1.507651",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "67"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "54"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "4000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "280"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000011",
+     "adset_name": "Test ad set 11",
+     "ad_id": "7000000000011",
+     "ad_name": "Angle 11 Paused Dud",
+     "spend": "12.00",
+     "impressions": "1333",
+     "reach": "952",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "20",
+     "inline_link_click_ctr": "1.500375",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "20"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "16"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1200"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "102"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "48.00",
+     "impressions": "5333",
+     "reach": "3809",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "80",
+     "inline_link_click_ctr": "1.500094",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "80"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "64"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "6"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "4800"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "480"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "8.000000"
+      }
+     ]
+    }
+   ]
+  },
+  "insights_daily:9000000000001": {
+   "data": [
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "12.00",
+     "impressions": "1333",
+     "reach": "952",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "20",
+     "inline_link_click_ctr": "1.500375",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "20"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "16"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1200"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "102"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "4.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "119"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "3.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "13.00",
+     "impressions": "1444",
+     "reach": "1031",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "22",
+     "inline_link_click_ctr": "1.523546",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "22"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1300"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "110"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "4.333333"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "119"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "4.666667"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "119"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "3.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "128"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "3.750000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000001",
+     "adset_name": "Test ad set 01",
+     "ad_id": "7000000000001",
+     "ad_name": "Angle 01 Champion",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "119"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "4.666667"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "5.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000002",
+     "ad_name": "Angle 02 Winner",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "150"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "5.00",
+     "impressions": "556",
+     "reach": "397",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "8",
+     "inline_link_click_ctr": "1.438849",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "8"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "58"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "5.00",
+     "impressions": "556",
+     "reach": "397",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "8",
+     "inline_link_click_ctr": "1.438849",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "8"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "58"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "4.00",
+     "impressions": "444",
+     "reach": "317",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "7",
+     "inline_link_click_ctr": "1.576577",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "7"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "46"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "4.00",
+     "impressions": "444",
+     "reach": "317",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "7",
+     "inline_link_click_ctr": "1.576577",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "7"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "46"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "4.00",
+     "impressions": "444",
+     "reach": "317",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "7",
+     "inline_link_click_ctr": "1.576577",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "7"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "46"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "4.00",
+     "impressions": "444",
+     "reach": "317",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "7",
+     "inline_link_click_ctr": "1.576577",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "7"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "46"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10"
+    },
+    {
+     "adset_id": "8000000000003",
+     "adset_name": "Test ad set 03",
+     "ad_id": "7000000000003",
+     "ad_name": "Angle 03 Zero",
+     "spend": "4.00",
+     "impressions": "444",
+     "reach": "317",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "7",
+     "inline_link_click_ctr": "1.576577",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "7"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "6"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "46"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "9.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06"
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "9.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08"
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09"
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "9.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000004",
+     "adset_name": "Test ad set 04",
+     "ad_id": "7000000000004",
+     "ad_name": "Angle 04 Expensive",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "117"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "14.00",
+     "impressions": "1556",
+     "reach": "1111",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "23",
+     "inline_link_click_ctr": "1.478149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "18"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "4"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "4"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "98"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "3.500000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "105"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "5.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "1191",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "3"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "3"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "105"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "5.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "63"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08"
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "63"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09"
+    }
+   ],
+   "paging": {
+    "next": "insights_daily:9000000000001:page2"
+   }
+  },
+  "insights_daily:9000000000001:page2": {
+   "data": [
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "63"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10"
+    },
+    {
+     "adset_id": "8000000000005",
+     "adset_name": "Test ad set 05",
+     "ad_id": "7000000000005",
+     "ad_name": "Angle 05 Died",
+     "spend": "9.00",
+     "impressions": "1000",
+     "reach": "714",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "15",
+     "inline_link_click_ctr": "1.500000",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "15"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "12"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "900"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "63"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "12.00",
+     "impressions": "1333",
+     "reach": "342",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "20",
+     "inline_link_click_ctr": "1.500375",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "20"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "16"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1200"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "102"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "12.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "12.00",
+     "impressions": "1333",
+     "reach": "342",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "20",
+     "inline_link_click_ctr": "1.500375",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "20"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "16"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1200"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "102"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "12.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "16.00",
+     "impressions": "1778",
+     "reach": "456",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "27",
+     "inline_link_click_ctr": "1.518560",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "27"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "22"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "136"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "8.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "20.00",
+     "impressions": "2222",
+     "reach": "570",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "33",
+     "inline_link_click_ctr": "1.485149",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "33"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "26"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "2000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "170"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "24.00",
+     "impressions": "2667",
+     "reach": "684",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "40",
+     "inline_link_click_ctr": "1.499813",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "40"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "32"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "2400"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "204"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "12.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000006",
+     "adset_name": "Test ad set 06",
+     "ad_id": "7000000000006",
+     "ad_name": "Angle 06 Fatigue",
+     "spend": "15.00",
+     "impressions": "1667",
+     "reach": "427",
+     "frequency": "3.900000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "25",
+     "inline_link_click_ctr": "1.499700",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "25"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "20"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1500"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "128"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "15.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000007",
+     "adset_name": "Test ad set 07",
+     "ad_id": "7000000000007",
+     "ad_name": "Angle 07 Underspent",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10"
+    },
+    {
+     "adset_id": "8000000000007",
+     "adset_name": "Test ad set 07",
+     "ad_id": "7000000000007",
+     "ad_name": "Angle 07 Underspent",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000008",
+     "adset_name": "Test ad set 08",
+     "ad_id": "7000000000008",
+     "ad_name": "Angle 08 Learning",
+     "spend": "11.00",
+     "impressions": "1222",
+     "reach": "873",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "18",
+     "inline_link_click_ctr": "1.472995",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "18"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1100"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "126"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000008",
+     "adset_name": "Test ad set 08",
+     "ad_id": "7000000000008",
+     "ad_name": "Angle 08 Learning",
+     "spend": "11.00",
+     "impressions": "1222",
+     "reach": "873",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "18",
+     "inline_link_click_ctr": "1.472995",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "18"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1100"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "126"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000008",
+     "adset_name": "Test ad set 08",
+     "ad_id": "7000000000008",
+     "ad_name": "Angle 08 Learning",
+     "spend": "11.00",
+     "impressions": "1222",
+     "reach": "873",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "18",
+     "inline_link_click_ctr": "1.472995",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "18"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1100"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "126"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000008",
+     "adset_name": "Test ad set 08",
+     "ad_id": "7000000000008",
+     "ad_name": "Angle 08 Learning",
+     "spend": "11.00",
+     "impressions": "1222",
+     "reach": "873",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "18",
+     "inline_link_click_ctr": "1.472995",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "18"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1100"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "126"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "11.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "6.00",
+     "impressions": "667",
+     "reach": "476",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "10",
+     "inline_link_click_ctr": "1.499250",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "10"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "8"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "78"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "6.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "6.00",
+     "impressions": "667",
+     "reach": "476",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "10",
+     "inline_link_click_ctr": "1.499250",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "10"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "8"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "78"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "6.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "6.00",
+     "impressions": "667",
+     "reach": "476",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "10",
+     "inline_link_click_ctr": "1.499250",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "10"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "8"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "78"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "6.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "6.00",
+     "impressions": "667",
+     "reach": "476",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "10",
+     "inline_link_click_ctr": "1.499250",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "10"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "8"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "78"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "6.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "130"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "130"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000009",
+     "adset_name": "Test ad set 09",
+     "ad_id": "7000000000009",
+     "ad_name": "Angle 09 Drifting",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "130"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11"
+    },
+    {
+     "adset_id": "8000000000010",
+     "adset_name": "Test ad set 10",
+     "ad_id": "7000000000010",
+     "ad_name": "Angle 10 Paused Early",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05"
+    },
+    {
+     "adset_id": "8000000000010",
+     "adset_name": "Test ad set 10",
+     "ad_id": "7000000000010",
+     "ad_name": "Angle 10 Paused Early",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000010",
+     "adset_name": "Test ad set 10",
+     "ad_id": "7000000000010",
+     "ad_name": "Angle 10 Paused Early",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "10.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000010",
+     "adset_name": "Test ad set 10",
+     "ad_id": "7000000000010",
+     "ad_name": "Angle 10 Paused Early",
+     "spend": "10.00",
+     "impressions": "1111",
+     "reach": "794",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "17",
+     "inline_link_click_ctr": "1.530153",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "14"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "2"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "2"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1000"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "5.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000011",
+     "adset_name": "Test ad set 11",
+     "ad_id": "7000000000011",
+     "ad_name": "Angle 11 Paused Dud",
+     "spend": "12.00",
+     "impressions": "1333",
+     "reach": "952",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "20",
+     "inline_link_click_ctr": "1.500375",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "20"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "16"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "1200"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "102"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05"
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-05",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-06",
+     "date_stop": "2026-01-06",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-07",
+     "date_stop": "2026-01-07",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-08",
+     "date_stop": "2026-01-08",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-09",
+     "date_stop": "2026-01-09",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "7.00",
+     "impressions": "778",
+     "reach": "556",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "12",
+     "inline_link_click_ctr": "1.542416",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "12"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "10"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "1"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "1"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "700"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "70"
+      }
+     ],
+     "date_start": "2026-01-10",
+     "date_stop": "2026-01-10",
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "7.000000"
+      }
+     ]
+    },
+    {
+     "adset_id": "8000000000002",
+     "adset_name": "Test ad set 02",
+     "ad_id": "7000000000012",
+     "ad_name": "Angle 12 Twin",
+     "spend": "6.00",
+     "impressions": "667",
+     "reach": "476",
+     "frequency": "1.400000",
+     "cpm": "9.000000",
+     "inline_link_clicks": "10",
+     "inline_link_click_ctr": "1.499250",
+     "cost_per_inline_link_click": "0.600000",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "10"
+      },
+      {
+       "action_type": "landing_page_view",
+       "value": "8"
+      }
+     ],
+     "video_play_actions": [
+      {
+       "action_type": "video_view",
+       "value": "600"
+      }
+     ],
+     "video_thruplay_watched_actions": [
+      {
+       "action_type": "video_view",
+       "value": "60"
+      }
+     ],
+     "date_start": "2026-01-11",
+     "date_stop": "2026-01-11"
+    }
+   ]
+  },
+  "insights_totals:9000000000001": {
+   "data": [
+    {
+     "spend": "685.00",
+     "impressions": "76111",
+     "cpm": "9.000000",
+     "inline_link_click_ctr": "1.500000",
+     "frequency": "1.800000",
+     "reach": "42284",
+     "actions": [
+      {
+       "action_type": "landing_page_view",
+       "value": "656"
+      },
+      {
+       "action_type": "complete_registration",
+       "value": "82"
+      },
+      {
+       "action_type": "offsite_conversion.fb_pixel_complete_registration",
+       "value": "82"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "complete_registration",
+       "value": "8.353659"
+      }
+     ],
+     "date_start": "2026-01-05",
+     "date_stop": "2026-01-11"
+    }
+   ]
+  }
+ }
+}

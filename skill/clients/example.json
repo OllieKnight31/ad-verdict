@@ -1,0 +1,19 @@
+{
+  "_about": "Example config. It matches the invented demo account in fixtures/demo-account.json. Copy it to a new file named after your account, then change the values. Keys starting with an underscore are notes and are ignored.",
+  "act_id": "act_0000000000",
+  "token_source": {
+    "file": "~/.ad-verdict/.env",
+    "var": "META_ACCESS_TOKEN"
+  },
+  "api_version": "v26.0",
+  "conversion_event": "complete_registration",
+  "currency": "GBP",
+  "target_cpl": 8,
+  "breakeven_cpl": null,
+  "economics": {
+    "_about": "Used only when breakeven_cpl is null. Breakeven CPL = front_end_cash / results over a recent, typical period.",
+    "front_end_cash": 4800,
+    "results": 400
+  },
+  "notes": "Invented demo account. Not a real business."
+}
